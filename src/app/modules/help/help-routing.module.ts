@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AttendanceHomeComponent } from 'src/app/components/attendance/attendance-home/attendance-home.component';
+import { HelpHomeComponent } from 'src/app/components/help/help-home/help-home.component';
 
 const routes: Routes = [
-  { path: '', component: AttendanceHomeComponent },
+  { path: '', component: HelpHomeComponent },
 ];
 
 @NgModule({
   declarations: [
-    AttendanceHomeComponent
+    HelpHomeComponent
   ],
   imports: [
     RouterModule.forChild(routes)
   ],
   exports: [RouterModule]
 })
-export class AttendanceRoutingModule { }
+export class HelpRoutingModule { }
